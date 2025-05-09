@@ -6,7 +6,7 @@ function App() {
   const [resume, setResume] = useState(null);
   const [result, setResult] = useState('');
 
-  const API_URL = "https://your-backend-url.onrender.com"; // Replace with actual URL after deployment
+    const API_URL = "https://resume-matcher-backend-1-pdro.onrender.com"; // Replace with actual URL after deployment
 
   const handleFileChange = (e) => {
     setResume(e.target.files[0]);
